@@ -1,1 +1,0 @@
-# devzillas_transfer_equivalency_scraper
