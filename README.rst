@@ -11,8 +11,7 @@ Quick start
 
 total time of crawling scraping 20 pages: 7.6664525
 
-output: [output.txt](https://github.com/devzillas-company/devzillas_transfer_equivalency_scraper/blob/main/output.txt/)
-
+output: `output.txt <https://github.com/devzillas-company/devzillas_transfer_equivalency_scraper/blob/main/output.txt>`_
 
 
 
