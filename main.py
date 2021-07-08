@@ -1,5 +1,7 @@
 from time import perf_counter
 
+from rest_framework.utils import json
+
 from wyossb_uwyo_edu.state_usp_scraper import StateAndUspScraper
 from wyossb_uwyo_edu.college_scraper import CollegeScarper
 from wyossb_uwyo_edu.transfer_scraper import TransferScraper
@@ -63,4 +65,4 @@ def transfer_equivalency_scraping(max_crawl_pages):
 if __name__ == '__main__':
     crawl_pages = 300
     scraped_data = transfer_equivalency_scraping(crawl_pages)
-    print(scraped_data['data'])
+    print(json.dumps(scraped_data['data']))
